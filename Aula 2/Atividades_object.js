@@ -36,8 +36,9 @@ let Address = {
 }
 
 Address.endereco = (`Rua: ${Address.Rua}, Bairro: Cristal, Número: 50, Cidade: ${Address.cidade}, País: Jhoto `)
+aluno.endereco = Address
 console.log(Address.cidade)
-console.log(Address.endereco)
+console.log(aluno.endereco)
 console.log("_______________________________");
 
 
