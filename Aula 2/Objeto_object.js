@@ -19,7 +19,7 @@ const cadastroFilho = {
   
   console.log("_______________________________");
   
-  // Também podemos armazenar Listas, Objetos e até outras variáveis dentro de um Objeto
+  // Também podemos armazenar Listas, Variaveis e até outras Objetos dentro de um Objeto
   
   const pessoa = {
       nome: "Mariana",

@@ -87,3 +87,53 @@ comando1.unshift ("Celebi")
 comando1.push (55)
 console.log(comando1)
 console.log("_______________________________");
+
+// ------------------------------------------------------------
+// EXERCÍCIO 6 – indexOf, includes
+// ------------------------------------------------------------
+// a) Dado um array de nomes, verifique o índice de um nome específico.
+// b) Busque por um nome específico que não existe na lista.
+
+const nomes = ["Ana", "Bruno", "Carolina", "Daniel", "Eduardo"];
+console.log(nomes.indexOf("Bruno"))
+console.log(nomes.includes("Gabriel"))
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+// ------------------------------------------------------------
+// EXERCÍCIO 7 – slice, concat
+// ------------------------------------------------------------
+// a) Dado dois arrays de letras, junte os 2 em um só usando concat() e exiba o resultado.
+// b) Use slice para criar uma nova array, contendo somente os elementos entre a 2ª e a 4ª posição
+//    do array que você criou usando o concat() e exiba o resultado.
+
+const letras1 = ["a", "b", "c", "d", "e"];
+const letras2 = ["f", "g"];
+
+const letras3 = letras1.concat (letras2)
+const letras4 = letras3.slice(3,5)
+
+console.log(letras4)
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// EXERCÍCIO 8 – arrays aninhados (array dentro de array) e     
+// ------------------------------------------------------------
+// a) Crie um array aninhado, ebixa-o. Acesso elementos internos deste array.
+// b) Use flat para achatar o array em um unico nível (os arrays internos se tornam elementos individuais) e exiba-o.
+
+// → Seu código aqui:
+
+let poke = ["Charmander", ["fogo", ["Squirtle", ["agua", ["Bulbasaur", ["grama"]]]]]]
+let unir = poke.flat(6)
+console.log(unir)
+
+console.log("_______________________________");
