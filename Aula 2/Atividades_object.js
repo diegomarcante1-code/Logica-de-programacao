@@ -84,10 +84,10 @@ let responsavel = {
 }
     
 
-
-console.log (responsavel.nome)
+aluno.resposavel = responsavel
+console.log (aluno.responsavel.nome)
 responsavel.nome = "Arlene"
-console.log (responsavel.nome)
+console.log (responsavel.nome.nome)
 console.log("_______________________________");
 
 // ------------------------------------------------------------
